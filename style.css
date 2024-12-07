@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.bg_image {
+  background-image: url("./images/hero-bg.jpg");
+  height: 100vh;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav_bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding: 0 30px;
+  width: 15%;
+}
+.nav_bar_item {
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+.nav_bar_item ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /* margin: 0 auto; */
+}
+.nav_bar_item ul li a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav_bar_item a:hover {
+  color: #1fd679;
+}
+.hero_section {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.text {
+  width: 55%;
+  height: 100vh;
+  text-transform: uppercase;
+  position: relative;
+  top: 150px;
+  left: 60px;
+}
+.green_img {
+  width: 45%;
+  height: 100vh;
+  position: relative;
+}
+.green_img img {
+  height: 100vh;
+  width: 100%;
+}
+.ft {
+  font-size: 40px;
+  font-weight: 500;
+  color: #1fd679;
+}
+.st span {
+  font-size: 40px;
+  font-weight: 500;
+  color: #1fd679;
+}
+.st {
+  font-size: 80px;
+  font-weight: 400;
+}
+.text p {
+  width: 580px;
+  text-transform: capitalize;
+}
+.btn {
+  margin-top: 40px;
+}
+.btn button {
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+  /* background-color: black; */
+  font-size: 15px;
+}
+.btn-1 {
+  background-color: #1fd679;
+  margin: 0 5px;
+}
+.btn-2 {
+  background-color: black;
+}
+.green_img_sofa {
+  position: absolute;
+  right: 60px;
+  top: 130px;
+}
+.green_img_sofa img {
+  width: 250px;
+  height: 280px;
+}
+.page_2 {
+  display: flex;
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+}
+.right img {
+}
+
+.left h1 {
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.left p {
+  width: 580px;
+  margin: 30px 0;
+}
